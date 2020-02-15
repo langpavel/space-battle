@@ -1,0 +1,6 @@
+<!DOCTYPE html><html><head><title>Space Battle (0.0.1alpha)</title><style>html, body, canvas { width: 100%; height: 100%; margin: 0; padding: 0; overflow:hidden; background-color: #000 }</style><script src="src/util.js"></script><script src="src/model/constants.js"></script><script src="src/model/spaceObject.js"></script><script src="src/model/asteroid.js"></script><script src="src/model/bullet.js"></script><script src="src/model/rocketShip.js"></script><script src="src/model/universe.js"></script><script src="src/main.js"></script><script>window.onload = function() {
+  document.body.innerHTML = '';
+  var canvas = document.createElement('canvas');
+  document.body.appendChild(canvas);
+  window.game = new (pl.namespace('battle').Game)(document, canvas);
+};</script></head><body><article id="about"><h1>Space Battle (0.0.1alpha)</h1><p>This game require JavaScript enabled browser. Developed for Google Chrome</p><p>Javascript game in 2D space!</p></article></body></html>
